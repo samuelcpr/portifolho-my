@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style/header.css">
+    <link rel="stylesheet" href="./src/style/corpo.css">
+    <link rel="stylesheet" href="./src/style/slide.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="containermain">
+
+        <header>
+            <div class="main" style="display: flex;">
+                <div class="logo">
+                    <img src="./src/img/myimage-removebg-preview.webp" alt="" id="imglogo">
+                    <h1 class="nome">Samuel Carlos</h1>
+                </div>
+                <ul class="contato">
+                    <a href="#">
+                        <img src="./src/icons/facebook-circular-logo.png" alt="facebook" id="icon">
+                    </a>
+                    <a href="#">
+                        <img src="./src/icons/github.png" alt="github" id="icon">
+                    </a>
+                    <a href="#">
+                        <img src="./src/icons/gmail.png" alt="gmail" id="icon">
+                    </a>
+                    <a href="#">
+                        <img src="./src/icons/instagram.png" alt="instagram" id="icon">
+                    </a>
+                    <a href="#">
+                        <img src="./src/icons/linkedin.webp" alt="linkedin" id="icon">
+                    </a>
+                </ul>
+            </div>
+        </header>
+
+        <div class="titulosobre">
+            <h1 class="sobremim">Sobre Mim</h1>
+        </div>
+        <div class="corpo">
+
+            <div class="containertext">
+                <p class="textaprove">Sou formado e estou no início da minha carreira. Tenho uma paixão por tecnologia e desenvolvimento de<br> software. Minha experiência recente me tornou um entusiasta do JavaScript, especialmente do React. Fico
+                    <br> maravilhado com o que essas incríveis tecnologias permitem fazer e sei que ainda há muito a ser<br> explorado. Adoro estudar e aprender coisas novas, bem como compartilhar meus conhecimentos com outros.
+                    <br> Tenho uma forte afinidade com metodologias ágeis, que permitem que trabalhemos em equipe durante<br> sprints, transformando nossos esforços em valor para a empresa e para nossos clientes. Sou motivado por<br> desafios e sempre
+                    ansioso por novas oportunidades de crescimento, para que possa oferecer produtos de<br> qualidade e excelência técnica.
+                </p>
+            </div>
+
+            <div class="info-habilidades">
+
+                <h1></h1>
+                <p></p>
+
+                <h1></h1>
+                <p></p>
+
+                <h1></h1>
+                <p></p>
+
+            </div>
+        </div>
+
+        <div class="containerslide">
+            <h1 style="text-align:center; border: solid 3px black; border-radius: 15px;
+            margin: 0 32% 5% 32%; padding: 1% 5% 1% 5%;">Certificados</h1>
+
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 8</div>
+                    <img src="./src/img/certificadoaws.webp" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 8</div>
+                    <img src="./src/img/CertificadoNode.jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 8</div>
+                    <img src="./src/img/certificadoprteAcademy.jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 8</div>
+                    <img src="./src/img/cursorubybasico.webp" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 8</div>
+                    <img src="./src/img/dockercertification.webp" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 8</div>
+                    <img src="./src/img/microservicosNode.webp" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">7 / 8</div>
+                    <img src="./src/img/php.jpeg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">8 / 8</div>
+                    <img src="./src/img/rubyavacado.jpeg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="./src/img/certificadoaws.webp" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./src/img/CertificadoNode.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./src/img/certificadoprteAcademy.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./src/img/cursorubybasico.webp" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./src/img/dockercertification.webp" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./src/img/microservicosNode.webp" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./src/img/php.jpeg" style="width:100%" onclick="currentSlide(7)" alt="Snowy Mountains">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./src/img/rubyavacado.jpeg" style="width:100%" onclick="currentSlide(8)" alt="Snowy Mountains">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <div style="display: block; justify-content: right;">
+                    <div style="display: flex; justify-content: center;">
+                        <h1 style="margin: 20% 0 5% 0; border: solid 3px black; border-radius: 15px;  padding: 1% 5% 1% 5%;">
+                            Experiencias</h1>
+                    </div>
+                    <div style="display: flex; justify-content: left;">
+                        <h1>PRTE Tecnologias e Soluções</h1>
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <h1></h1>
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <h1></h1>
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <h1></h1>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <script src="./src/script/script.js"></script>
+
+        </div>
+
+
+
+
+</body>
+
+</html>
