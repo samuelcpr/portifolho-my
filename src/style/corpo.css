@@ -31,6 +31,9 @@
     padding: 2% 2%;
     border: solid 1px#fff;
     zoom: 102%;
+    background-color: #fff;
+    color: black;
+    transition: 0.8s;
 }
 
 .textaprove {
